@@ -1,0 +1,4 @@
+<?php
+include_once "admin_components/cp_head.php";
+include_once "admin_components/cp_navbar.php";
+include_once "admin_components/cp_editar_escola_escolher.php";?>

@@ -1,0 +1,145 @@
+:root{
+    --azul_intermedio:#66C0E1;
+    --branco_intermedio:#F0F0F0;
+    --azul_escuro1:#2596BE;
+    --azul_escuro2:#145167;
+    --azul_claro1:#88CEE7;
+    --azul_claro2:#AADCEE;
+    --cinzento_claro: #D9D9D9;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.borda_azul_clara{
+    border-color: var(--azul_claro1);
+}
+
+.borda_azul_escura{
+    border-color: var(--azul_escuro1);
+}
+
+.borda_branco{
+    border-color: var(--branco_intermedio);
+}
+
+.fundoAzul{
+    background-color: var(--azul_intermedio);
+}
+.fundoBranco{
+    background-color: var(--branco_intermedio);
+}
+.fundoAzulEscuro{
+    background-color: var(--azul_escuro1);
+}
+.fundoAzulClaro{
+    background-color: var(--azul_claro1);
+}
+.fundoAzulEscuro2{
+    background-color: var(--azul_escuro2);
+}
+.fundoCinzento{
+    background-color: var(--cinzento_claro);
+}
+
+.letrasBranco{
+    color: var(--branco_intermedio);
+}
+.letrasIntermedio{
+    color: var(--azul_intermedio);
+}
+.letrasAzul{
+    color: var(--azul_escuro1);
+}
+.letrasEscuro{
+    color: var(--azul_escuro2);
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--branco_intermedio);
+}
+
+#boneco1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: rotate(180deg);
+    width: 50%;
+
+}
+
+#boneco2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(270deg);
+    width: 50%;
+
+}
+
+#boneco3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+
+}
+
+#boneco4{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(90deg);
+    width: 50%;
+}
+
+.option-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #87CEEB;
+    border: 1px solid #87CEEB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option-button:hover {
+    background-color: #4682B4 ;
+}
+
+.option-button:focus {
+    outline: none;
+}
+
+.selected {
+    background-color: #4682B4 !important;
+    color: white;
+}
+
+.module-title {
+    background-color: var(--azul_escuro2);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-buttons button {
+    width: 150px;
+}
+
+

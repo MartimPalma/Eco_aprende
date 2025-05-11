@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cb12c5d0-c48f-4348-afc3-f543c08f6ee3" name="BDTSS" url="http://labmm.clients.ua.pt/deca_23_BDTSS/deca_24_BDTSS_28">
+        <fileTransfer rootFolder="/deca_24_BDTSS_28" host="labmm.clients.ua.pt" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
